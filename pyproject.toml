@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "flickr_random_picker"
+version = "0.1.0"
+description = "pick random flickr photos"
+authors = ["ytya <ytyadev@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+flickrapi = "*"
+requests = "*"
+numpy = "*"
+tqdm = "*"
+fire = "*"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+flake8 = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 119
